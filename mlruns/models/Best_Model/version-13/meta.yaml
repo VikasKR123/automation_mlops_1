@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1729261986236
+current_stage: None
+description: null
+last_updated_timestamp: 1729261986236
+name: Best_Model
+run_id: null
+run_link: null
+source: file:///home/sigmoid/Desktop/Personal_Ml/poc4/mlruns/0/3d29a442a94845a8b4179ce0a6ca3694/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///home/sigmoid/Desktop/Personal_Ml/poc4/mlruns/0/3d29a442a94845a8b4179ce0a6ca3694/artifacts/model
+user_id: null
+version: 13

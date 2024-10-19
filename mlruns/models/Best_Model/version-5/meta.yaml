@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1729260895292
+current_stage: None
+description: null
+last_updated_timestamp: 1729260895292
+name: Best_Model
+run_id: null
+run_link: null
+source: path/to/your/stored/model
+status: READY
+status_message: null
+storage_location: path/to/your/stored/model
+user_id: null
+version: 5

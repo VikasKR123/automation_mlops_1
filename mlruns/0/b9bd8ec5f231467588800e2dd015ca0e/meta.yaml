@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sigmoid/Desktop/Personal_Ml/poc4/mlruns/0/b9bd8ec5f231467588800e2dd015ca0e/artifacts
+end_time: 1729302736178
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b9bd8ec5f231467588800e2dd015ca0e
+run_name: bright-grub-57
+run_uuid: b9bd8ec5f231467588800e2dd015ca0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729302732733
+status: 3
+tags: []
+user_id: sigmoid

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sigmoid/Desktop/Personal_Ml/poc4/mlruns/0/eea302c064824d5cbf989cf523aa0fec/artifacts
+end_time: 1729259452565
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eea302c064824d5cbf989cf523aa0fec
+run_name: trusting-midge-919
+run_uuid: eea302c064824d5cbf989cf523aa0fec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729259450303
+status: 3
+tags: []
+user_id: sigmoid

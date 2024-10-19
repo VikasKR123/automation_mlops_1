@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sigmoid/Desktop/Personal_Ml/poc4/mlruns/0/4324a082aa5b4f14b3a5b8df156b1c8f/artifacts
+end_time: 1729259323342
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4324a082aa5b4f14b3a5b8df156b1c8f
+run_name: aged-cod-276
+run_uuid: 4324a082aa5b4f14b3a5b8df156b1c8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729259319685
+status: 3
+tags: []
+user_id: sigmoid

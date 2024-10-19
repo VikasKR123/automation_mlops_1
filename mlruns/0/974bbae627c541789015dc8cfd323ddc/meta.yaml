@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sigmoid/Desktop/Personal_Ml/poc4/mlruns/0/974bbae627c541789015dc8cfd323ddc/artifacts
+end_time: 1729259445216
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 974bbae627c541789015dc8cfd323ddc
+run_name: respected-cub-147
+run_uuid: 974bbae627c541789015dc8cfd323ddc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729259442087
+status: 3
+tags: []
+user_id: sigmoid

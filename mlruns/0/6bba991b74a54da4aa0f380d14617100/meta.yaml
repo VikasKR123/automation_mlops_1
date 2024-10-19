@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sigmoid/Desktop/Personal_Ml/poc4/mlruns/0/6bba991b74a54da4aa0f380d14617100/artifacts
+end_time: 1729259277067
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6bba991b74a54da4aa0f380d14617100
+run_name: puzzled-shoat-753
+run_uuid: 6bba991b74a54da4aa0f380d14617100
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729259274645
+status: 3
+tags: []
+user_id: sigmoid

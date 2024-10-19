@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sigmoid/Desktop/Personal_Ml/poc4/mlruns/0/3d29a442a94845a8b4179ce0a6ca3694/artifacts
+end_time: 1729261896039
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d29a442a94845a8b4179ce0a6ca3694
+run_name: fortunate-toad-712
+run_uuid: 3d29a442a94845a8b4179ce0a6ca3694
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729261893688
+status: 3
+tags: []
+user_id: sigmoid

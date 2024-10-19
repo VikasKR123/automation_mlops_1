@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sigmoid/Desktop/Personal_Ml/poc4/mlruns/0/3c36fda647fd4ffb9ba513e98757f505/artifacts
+end_time: 1729259319680
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3c36fda647fd4ffb9ba513e98757f505
+run_name: bemused-shrike-534
+run_uuid: 3c36fda647fd4ffb9ba513e98757f505
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729259314235
+status: 3
+tags: []
+user_id: sigmoid

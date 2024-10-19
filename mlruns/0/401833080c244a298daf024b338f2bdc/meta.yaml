@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sigmoid/Desktop/Personal_Ml/poc4/mlruns/0/401833080c244a298daf024b338f2bdc/artifacts
+end_time: 1729259447977
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 401833080c244a298daf024b338f2bdc
+run_name: efficient-bird-56
+run_uuid: 401833080c244a298daf024b338f2bdc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729259445227
+status: 3
+tags: []
+user_id: sigmoid
