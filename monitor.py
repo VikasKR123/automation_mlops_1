@@ -9,7 +9,7 @@ import requests
 import json
 
 GITHUB_REPO = "VikasKR123/automation_mlops_1"
-GITHUB_TOKEN = {{ secrets.TOKEN }}  
+GITHUB_TOKEN = ${{ secrets.TOKEN }}  
 WORKFLOW_FILE_NAME = "ci.yml"
 
 # Reference data (initial state, without drift)

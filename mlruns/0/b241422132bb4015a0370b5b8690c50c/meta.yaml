@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sigmoid/Desktop/Project2/poc4/mlruns/0/b241422132bb4015a0370b5b8690c50c/artifacts
+end_time: 1729518351908
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b241422132bb4015a0370b5b8690c50c
+run_name: caring-shrike-606
+run_uuid: b241422132bb4015a0370b5b8690c50c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729518348109
+status: 3
+tags: []
+user_id: sigmoid
