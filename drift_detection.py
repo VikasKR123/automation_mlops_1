@@ -1,6 +1,5 @@
 from scipy.stats import ks_2samp
 
-# Function to detect drift
 def detect_drift(new_data, reference_data, threshold=0.05):
     drift_detected = False
     for col in reference_data.columns:

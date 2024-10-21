@@ -8,6 +8,7 @@ model_uri = "models:/Best_Model/Production"
 
 try:
     model = mlflow.pyfunc.load_model(model_uri)
+    print(model_uri)
     print("Model loaded successfully from MLflow")
 except Exception as e:
     print(f"Error loading model: {e}")
@@ -19,7 +20,6 @@ def predict():
         return jsonify({"error": "Model is not loaded"}), 500
 
     try:
-        # Get input data from request body
         input_data = request.json
 
         # Ensure input data is in a list format

@@ -8,7 +8,6 @@ import numpy as np
 # Reference data (initial state, without drift)
 reference_data = generate_data(num_samples=100, drift=False)
 
-# Train and log the initial model if not already trained
 try:
     reference_model_uri = mlflow.register_model("models:/Best_Model/Production")
 except Exception as e:
@@ -17,9 +16,7 @@ except Exception as e:
     reference_model_uri = train_and_log_model(reference_data, target)
     mlflow.register_model(reference_model_uri, "Best_Model")
 
-# Monitoring loop to check for drift and rollback if drift is detected
 while True:
-    # Simulate incoming new data (without drift for some iterations, then with drift)
     new_data = generate_data(num_samples=100, drift=True)  # Simulate drift after some time
     
     # Detect drift
