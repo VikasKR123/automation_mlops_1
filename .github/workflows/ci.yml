@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
   build:
@@ -13,11 +14,19 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v1
+
     - name: Install Kubectl
       run: |
         curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
         chmod +x kubectl
         sudo mv kubectl /usr/local/bin/kubectl
+
+    - name: Configure kubectl
+      run: |
+        minikube start  # Start Minikube if it's not running
+        kubectl config use-context minikube  # Set kubectl to use Minikube context
 
     - name: Log in to Docker Hub
       run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
@@ -31,3 +40,9 @@ jobs:
     - name: Deploy to Minikube
       run: |
         kubectl set image deployment/flask-app flask-app=${{ secrets.DOCKER_USERNAME }}/flask-app:latest
+        kubectl rollout status deployment/flask-app  # Wait for deployment to complete
+
+    - name: Clean up
+      if: always()
+      run: |
+        minikube stop  # Stop Minikube if you want to clean up after the job
