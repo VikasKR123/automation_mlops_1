@@ -7,9 +7,11 @@ import numpy as np
 
 import requests
 import json
+import os
+
 
 GITHUB_REPO = "VikasKR123/automation_mlops_1"
-GITHUB_TOKEN = `${{secrets.TOKEN}}` 
+GITHUB_TOKEN = os.getenv("TOKEN")
 WORKFLOW_FILE_NAME = "ci.yml"
 
 
